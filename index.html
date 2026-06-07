@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHAYANTIKA GHOSH| Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section id="selector-screen">
+        <div class="profile-header">
+            <h1 id="user-name"></h1>
+            <p id="user-contact"></p>
+            <p id="user-edu"></p>
+        </div>
+        
+        <div class="choice-container">
+            <div class="choice-card core" onclick="initPortfolio('core')">
+                <h2>Core Engineering</h2>
+                <p>Core Infrastructure & Design</p>
+            </div>
+            <div class="choice-card analytics" onclick="initPortfolio('analytics')">
+                <h2>Data Analytics</h2>
+                <p>AI & Business Intelligence</p>
+            </div>
+        </div>
+    </section>
+
+    <main id="main-content" class="hidden">
+        <nav>
+            <div id="dynamic-logo"></div>
+            <button class="back-btn" onclick="location.reload()">Back to Home</button>
+        </nav>
+
+        <header id="dynamic-hero">
+            <h1 id="hero-title"></h1>
+            <p id="hero-desc"></p>
+            <div class="hero-image-container">
+                <img src="profile-photo.png" alt="Professional Profile" class="profile-img">
+            </div>
+        </header>
+
+        <section class="interactive-grid">
+            <div class="hover-item">
+                <button class="trigger-btn">SKILLS</button>
+                <div class="content-panel" id="skills-content"></div>
+            </div>
+
+            <div class="hover-item">
+                <button class="trigger-btn">INTERNSHIPS</button>
+                <div class="content-panel" id="intern-content"></div>
+            </div>
+
+            <div class="hover-item">
+                <button class="trigger-btn">PROJECTS</button>
+                <div class="content-panel" id="project-content"></div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
