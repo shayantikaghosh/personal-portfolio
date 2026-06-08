@@ -2,7 +2,7 @@ const userData = {
     profile: {
         name: "SHAYANTIKA GHOSH",
         contact: "shayantika.ce.nita@gmail.com | +91-9863849015",
-        edu: "B.Tech | Civil Engineering | NIT Agartala | CGPA: 8.98 | SGPA (current): 9.32"
+        edu: "B.Tech | Civil Engineering | NIT Agartala | CGPA: 8.69 | SGPA (current): 9.32"
     },
     core: {
         title: "Core Engineering",
